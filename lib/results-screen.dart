@@ -40,8 +40,8 @@ class ResultScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            const Text(
-              'You answered X out of Y questions correctly',
+            Text(
+              'You answered $numCorrectAnswers out of $numTotalQuestions questions correctly',
               style: TextStyle(color: Colors.white),
               textAlign: TextAlign.center,
             ),
